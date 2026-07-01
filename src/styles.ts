@@ -1,4 +1,4 @@
-import { CSSProperties } from 'react';
+import type { CSSProperties } from 'react';
 import { colors } from './colors';
 
 export const s: Record<string, CSSProperties> = {
