@@ -10,6 +10,7 @@ import AccountPage from './pages/AccountPage';
 import ParshaPage from './pages/ParshaPage';
 import ZmanimPage from './pages/ZmanimPage';
 import HowItWorksPage from './pages/HowItWorksPage';
+import FAQPage from './pages/FAQPage';
 import Layout from './components/Layout';
 
 export default function App() {
@@ -37,6 +38,7 @@ export default function App() {
         <Route path="/parsha" element={<ParshaPage />} />
         <Route path="/zmanim" element={<ZmanimPage />} />
         <Route path="/how-it-works" element={<HowItWorksPage />} />
+        <Route path="/faq" element={<FAQPage />} />
         <Route path="*" element={<Navigate to="/home" replace />} />
       </Routes>
     </Layout>

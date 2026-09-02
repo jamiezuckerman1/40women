@@ -9,6 +9,7 @@ const NAV_LINKS = [
   { to: '/parsha', label: 'Parsha' },
   { to: '/zmanim', label: 'Shabbat Times' },
   { to: '/how-it-works', label: 'How It Works' },
+  { to: '/faq', label: 'FAQ' },
   { to: '/account', label: 'Account' },
 ];
 
